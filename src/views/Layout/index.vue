@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<template>
-  <div>
-    我是首页
-    <RouterView />
-  </div>
-</template>
-=======
 <script setup>
 
 import LayoutNav from './components/LayoutNav.vue'
@@ -32,4 +24,3 @@ onMounted(() => {
   <RouterView />
   <LayoutFooter />
 </template>
->>>>>>> fa7a46d

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<template>
-    <div>我是HOME</div>
-=======
 <script setup>
 import HomeCategory from './components/HomeCategory.vue'
 import HomeBanner from './components/HomeBanner.vue'
@@ -19,5 +15,4 @@ import HomePanel from './components/HomePanel.vue'
   <HomeNew />
   <HomeHot />
   <HomeProduct />
->>>>>>> fa7a46d
 </template>
