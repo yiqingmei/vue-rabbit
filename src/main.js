@@ -3,15 +3,16 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-
 import '@/styles/common.scss'
+import { LazyPlugin } from './directives'
 
-import { getCategoryAPI } from '@/apis/testAPI'
-getCategoryAPI().then(res =>
-  console.log(res)
-)
+
+
 const app = createApp(App)
 app.use(createPinia())
 app.use(router)
+app.use(LazyPlugin)
 
 app.mount('#app')
+
+
